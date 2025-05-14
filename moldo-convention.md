@@ -51,7 +51,9 @@ corrupted data.
 /* #CS */ Customized   = | XXXXXXXX XXXXXXXX 00000000 00000000 | --  CUSTOM RULES         (y)
 ```
 
-### The first region -------------------------------------------------------------
+---
+
+### The first region
 1. Upon Text 
 > _NotEmpty_ requires a text to be null when there are no characters. If "NonZeroed" is also specified than the text cannot be null at all.
 2. Upon Numbers
@@ -59,7 +61,9 @@ corrupted data.
 3. Upon Dates
 > _NonNegative_ indicates that its actually a duration type (subtract default and you'll have a period) _NotEmpty_ becomes a **not null** specifier, _NonZeroed_ informs that it cannot be the **default** value
 
-### Spaces management ------------------------------------------------
+---
+
+### Spaces management
 1. Upon Text
 > Expected behavior, they conflict between each other and the greater one should be check first
 2. Upon Numbersflo
@@ -67,16 +71,25 @@ corrupted data.
 3. Upon Dates
 > _PoliName_ demonstrates a DateTime value and _NoSpaces_ a DateOnly kind of value. (none remains DateTime)
 
+---
+
 ### Characters management
 1. Upon Text
 > This is the only section where this region is relevant. They are not combinable. They do allow spaces _NoSpaces_ is not specified. Alphanumeric allows ONLY letters and numbers. None of em allow the whole ansi character set
+
+---
+
 ### Time control
 1. Upon Dates
 > This is the only section where this region is relevant. They are not combinable. _FutureTime_ allows only value after the current time of the server and _PastTime_ allows only values before it 
 
+---
+
 ### Relational
 1. \* (Any)
 > These are special cases for collections, which are either duplicates within the repository or within a collection itself
+
+---
 
 ### Value Ranges
 1. \* (Any)
