@@ -42,7 +42,7 @@ corrupted data.
 /* #T+ */ PastTime     = | ******** ******** ******** **1***** | --  Date/Time from past
 -- -----------------------------------relational----------------------------------------------------
 /* #!= */ Unique       = | ******** ******** 111***** *1****** | --  NotNull unique index
-/* #PK */ ForiegnKey   = | ******** ******** *11***** *1****** | --  Primary unique key
+/* #PK */ ForeignKey   = | ******** ******** *11***** *1****** | --  External key inforced
 
 -- ----------------------------------value ranges---------------------------------------------------
 /* #MX */ MaxValue     = | XXXXXXXX XXXXXXXX *******1 1******* | --  Max Value indicator
