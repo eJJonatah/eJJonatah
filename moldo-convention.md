@@ -8,10 +8,10 @@
 /* based upon */ :u8 / /*C#*/(byte) / /*JS*/:Number
 
 -- abstract type     value         /\/     .NET     SQL             TS
-/* decimal  */ = | 11110010 | --   242     float    numeric(10,2)  Number
-/* tempora  */ = | 11100100 | --   228    DateTime  DateTime*      Date*
-/* identity */ = | 11001000 | --   200      Guid    identifier     String*
-/* textual  */ = | 10010000 | --   144     String   varchar*       String
+/* decimal    */ = | 11110010 | --   242     float    numeric(10,2)  Number
+/* temporal   */ = | 11100100 | --   228    DateTime  DateTime*      Date*
+/* relational */ = | 11001000 | --   200      Guid    identifier     String*
+/* textual    */ = | 10010000 | --   144     String   varchar*       String
 ```
 - decimal **Number\*** should have it's own Value-Type ensuring non decimal parts
 - temporal **Date\*** should have it's own Valye-Type system based on the default date value (for durations)
