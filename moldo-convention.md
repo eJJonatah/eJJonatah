@@ -115,7 +115,7 @@ byte 2
     b10       group T discriminator T''
     b11       group T discriminator T''' (sum T(s) 1-Alphanumeric 2-NumerOnly 3-LettersOnly)
     -
-    b12       group S switcher (ON/FutureTime OFF/PastTime)
+    b12       group U switcher (ON/FutureTime OFF/PastTime)
     b13       group V indicator V'   Unique
     b14       group V indicator V''  PrimaryKey
     b15       group V indicator V''' ForeignKey
