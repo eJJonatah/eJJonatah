@@ -26,7 +26,7 @@ corrupted data.
 ```lua
 /* based upon */ :int32 / /*C#*/<int> / /*JS*/:Number*
 
--- TG        Name          length or id u16  01234567 89ABCDEF      meaning
+-- TG        Name          length or id u16     group flags         meaning
 /* #N~ */ NonNegative  = | ******** ******** ******** *******1 | --  Number not negative
 /* #N+ */ NonZeroed    = | ******** ******** ******** ******1* | --  Value not zero or default
 /* #AA */ NotEmpty     = | ******** ******** ******** *****1** | --  trimmed text not empty or values not default
