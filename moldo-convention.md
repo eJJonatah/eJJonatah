@@ -8,13 +8,13 @@
 /* based upon */ :u8 / /*C#*/(byte) / /*JS*/:Number
 
 -- abstract type     value         /\/     .NET     SQL             TS
-/* decimal  */ = | 1111**1* | --   242     float    numeric(10,2)  Number
-/* timing   */ = | 111**1** | --   228    DateTime  DateTime*      Date*
-/* identity */ = | 11**1*** | --   200      Guid    identifier     String*
-/* textual  */ = | 1**1**** | --   144     String   varchar*       String
+/* decimal  */ = | 11110010 | --   242     float    numeric(10,2)  Number
+/* tempora  */ = | 11100100 | --   228    DateTime  DateTime*      Date*
+/* identity */ = | 11001000 | --   200      Guid    identifier     String*
+/* textual  */ = | 10010000 | --   144     String   varchar*       String
 ```
-- integer **Number\*** should have it's own Value-Type ensuring non decimal parts
-- timing **Date\*** should have it's own Valye-Type system based on the default date value (for durations)
+- decimal **Number\*** should have it's own Value-Type ensuring non decimal parts
+- temporal **Date\*** should have it's own Valye-Type system based on the default date value (for durations)
 - identity **UUID\*** should have it's own Valye-Type (as Guid)
 
 > Logical types are dealt with an integer value wich 1 is true and zero is false anything else should be dimmed as
@@ -41,14 +41,15 @@ corrupted data.
 /* #T- */ FutureTime   = | ******** ******** ***1**** **1***** | --  Date/Time of the future
 /* #T+ */ PastTime     = | ******** ******** ******** **1***** | --  Date/Time from past
 -- -----------------------------------relational----------------------------------------------------
-/* #!= */ Unique       = | ******** ******** 111***** *1****** | --  NotNull unique index
-/* #PK */ ForeignKey   = | ******** ******** *11***** *1****** | --  External key inforced
+/* #!= */ Unique       = | ******** ******** 111***** *1****** | --  Values cannot repeat within collection
+/* #PK */ PrimaryKey   = | ******** ******** *11***** *1****** | --  Values cannot repeat within repository
+/* #FK */ ForeignKey   = | ******** ******** **1***** *1****** | --  External key inforced
 
 -- ----------------------------------value ranges---------------------------------------------------
-/* #MX */ MaxValue     = | XXXXXXXX XXXXXXXX *******1 1******* | --  Max Value indicator
-/* #MX */ MinValue     = | XXXXXXXX XXXXXXXX ******** 1******* | --  Min Value indicator
-/* #LN */ LineLength   = | XXXXXXXX XXXXXXXX ******** ******** | --  Max length indicator (x)
-/* #CS */ Customized   = | XXXXXXXX XXXXXXXX 00000000 00000000 | --  CUSTOM RULES         (y)
+/* #>> */ MaxValue     = | XXXXXXXX XXXXXXXX *******1 1******* | --  Max Value indicator
+/* #<< */ MinValue     = | XXXXXXXX XXXXXXXX ******** 1******* | --  Min Value indicator
+/* #<> */ LineLength   = | XXXXXXXX XXXXXXXX ******** ******** | --  Max length indicator (x)
+/* #?? */ Customized   = | XXXXXXXX XXXXXXXX 00000000 00000000 | --  CUSTOM RULES         (y)
 ```
 
 ---
@@ -95,6 +96,59 @@ corrupted data.
 1. \* (Any)
 > _MaxValue_, _MinValue_ uses the left side of the **i32** to declare a boundary values for an number if applied on text will be interpreted as max length. _LineLength_ serves the same purpose but works for both text and numbers, in case of text represents string length and other types is instance count. **Customized** carries a part of a on the left side of the **i32** that identifies a custom rule-set
 
+int32 value rules bit break down flag indicators:
+```
+byte 1
+    b00       NonNegative 
+    b01       NonZeroed   
+    b02       NotEmpty
+    b03       group S present indicator
+    -
+    b04       group T present indicator
+    b05       group U present indicator
+    b06       group V present indicator
+    b07       group W/L switcher indicator (ON/ValueRange OFF/MaxLength)
+
+byte 2
+    b08       group S and W switcher (ON/PoliName OFF/NoSpaces) (ON/MaxValue OFF/MinValue)
+    b09       group T discriminator T'
+    b10       group T discriminator T''
+    b11       group T discriminator T''' (sum T(s) 1-Alphanumeric 2-NumerOnly 3-LettersOnly)
+    -
+    b12       group S switcher (ON/FutureTime OFF/PastTime)
+    b13       group V indicator V'   Unique
+    b14       group V indicator V''  PrimaryKey
+    b15       group V indicator V''' ForeignKey
+    
+[   bRR 16 more bits ] used to indicate a numeric value to indicate either 
+
+- Max/Min Value (when w group is ON)
+- Maximum array Length (when w group is OFF)
+- Custom rule-set Id when all other groups, switches, indicadators and discriminators are set to 0
+
+```
+
+Example interpretation of { 10010000, 00000000_00010000_00000011_00011000  }
+```lua
+
+10010000 == TEXT
+
+right region =
+    b03     /* group S present indicator */
+    b04     /* group T present indicator */
+
+    b08 ON  /* group S and W switcher (ON/PoliName OFF/NoSpaces) (ON/MaxValue OFF/MinValue) */
+    b09 ON  /* group T discriminator T' */
+
+-- (sum T(s) 1-Alphanumeric 2-NumerOnly 3-LettersOnly)
+
+    bRR = 00000000-00010000 / 16
+```
+which translates to the following rule: A text, with more than one word, only numbers & letters and a maximum 
+length of 16
+
+---
+
 # The value contract system
 
 Each contract represents an entity instances clas and should be transmitted as
@@ -119,6 +173,8 @@ Addresses one or more set of rules associated with the given value
 
 ### (5-21) The TypeId?
 May exists and may not based on the signal's value. It might be either random bytes for a unique identifier or ascii characters. Which one makes sense first
+
+---
 
 ## Contract based value transmission
 
