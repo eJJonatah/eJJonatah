@@ -94,7 +94,7 @@ corrupted data.
 
 ### Value Ranges
 1. \* (Any)
-> _MaxValue_, _MinValue_ uses the left side of the **i32** to declare a boundary values for an number if applied on text will be interpreted as max length. _LineLength_ serves the same purpose but works for both text and numbers, in case of text represents string length and other types is instance count. **Customized** carries a part of a on the left side of the **i32** that identifies a custom rule-set
+> _MaxValue_, _MinValue_ uses the left side of the **i32** to declare a boundary values for an number if applied on text will be interpreted as fixed term required length (as in char(n) from sql). _LineLength_ serves the same purpose but works for both text numbers as dynamic size (as varchar), in case of text represents string length and other types is instance count. **Customized** carries a part of a on the left side of the **i32** that identifies a custom rule-set
 
 int32 value rules bit break down flag indicators:
 ```
