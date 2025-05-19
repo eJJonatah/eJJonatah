@@ -3,7 +3,7 @@ I'm what you'd call a "software engineer" it's a fancy way of describing what I 
 likes it), although I do believe that this a mix between chemistry and poetry because most of the time we're speaking nonsense 
 and blowing things up.
 
-##### About building things
+###### About building things
 One of my strongest skills is certainly the ability to make things up, I'm not talking about lies (even 
 tho almost all my predictions end up being one) I really like imagining things from the ground up, defining patterns 
 and sticking to them when suitabe and desirable. I also like engaging with people, building together as a team and 
