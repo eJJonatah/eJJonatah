@@ -41,4 +41,4 @@ not a reality in the foreseeable future.
 
 > [!IMPORTANT]
 > I work from South America, born in Brazil and a happy english student. <br/>
-> losing money professionally through crypto investments! 🔥📉
+> Losing money professionally through crypto investments! 🔥📉
