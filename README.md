@@ -31,7 +31,6 @@ operations and more computation specialized stuff.
    <img heigh="40px" width="50" style="margin:11px" src="https://www.svgrepo.com/show/376369/dotnet.svg"/>
    <img heigh="40px" width="60" style="margin:11px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"  />
    <img heigh="40px" width="70" style="margin:11px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-plain.svg"  />
-   <img heigh="40px" width="50" style="margin:11px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/windows8/windows8-original.svg"  />
    <img heigh="40px" width="50" style="margin:11px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wasm/wasm-original.svg"  />
    <div style="display:flex; flex-direction: column; align-items:center; margin:11px; margin-top: 20px">
    <img heigh="40px" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"  />
