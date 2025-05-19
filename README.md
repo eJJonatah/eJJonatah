@@ -1,4 +1,4 @@
-# Hello, i'm James. I build things.
+# Hello, I'm James. I build things.
 I'm what you'd call a "software engineer" it's a fancy way of describing what I often do (and also linkedin 
 likes it) although, I do believe that this is chemist and poetry because most of the time we're speaking nonsense 
 and blowing things up.
@@ -42,3 +42,6 @@ operations and more computation specialized stuff.
 I do Love dotnet and most of the things that I do are supported by the rich .NET ecosystem. I 
 am aproaching a more low level way of building software and slowly moving to things like C or Rust but 
 not a reality in the foreseeable future.
+
+> [!IMPORTANT]
+> I'm based on South America, born in Brazil and happy english student!
