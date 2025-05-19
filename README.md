@@ -1,15 +1,15 @@
 # Hello, I'm James. I build things.
 I'm what you'd call a "software engineer" it's a fancy way of describing what I often do (and also linkedin 
-likes it) although, I do believe that this is chemist and poetry because most of the time we're speaking nonsense 
+likes it), although I do believe that this a mix between chemistry and poetry because most of the time we're speaking nonsense 
 and blowing things up.
 
 ##### About building things
-One of my strongest skills is certainly the hability to make things up, I'm not talking about lies (even 
+One of my strongest skills is certainly the ability to make things up, I'm not talking about lies (even 
 tho almost all my predictions end up being one) I really like imagining things from the ground up, defining patterns 
-and sticking to them when suitabe and desirable. Also I like people, engaging with, building togheter and more importantly, actually 
-solving real world people's problems through technology.
+and sticking to them when suitabe and desirable. I also like engaging with people, building together as a team and 
+more importantly: solving real world problems through technology.
 
-##### What stack I'm intertwined in?
+### Hard skillset
 
 <div style="display: flex;">
    <img heigh="40px" width="50" style="margin:11px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-plain.svg"  />
@@ -22,9 +22,9 @@ solving real world people's problems through technology.
 
 ---
 > [!NOTE]
-> Even tho bash is cited above, I mostly do windows shit because of daily usage and It's what im mostly 
-confortable with (visual studio IDE and the whole microsof💖 paraphernalia included) though I am currently experimenting with advanced linux server 
-operations and more computation specialized stuff.
+> Even tho bash is cited above, I mostly do windows shit because of daily usage and it's what I'm mostly 
+confortable with (visual studio IDE and the whole microsof💖 paraphernalia included) though I am currently experimenting with more advanced linux
+server operations and computation specialized stuff.
 
 ###### Environments environemnts, sdks, frameworks yadayadayada (stuff you use to do stuff)
 <div style="display: flex; flex-direction:row">
@@ -40,5 +40,5 @@ studying a more low level way of building software and slowly moving to things l
 not a reality in the foreseeable future.
 
 > [!IMPORTANT]
-> I'm based on South America, born in Brazil and happy english student. <br/>
-> I also lose money professionally through crypto investments!! 🔥📉
+> I work from South America, born in Brazil and a happy english student. <br/>
+> losing money professionally through crypto investments! 🔥📉
