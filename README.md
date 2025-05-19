@@ -40,5 +40,5 @@ studying a more low level way of building software and slowly moving to things l
 not a reality in the foreseeable future.
 
 > [!IMPORTANT]
-> I'm based on South America, born in Brazil and happy english student.
+> I'm based on South America, born in Brazil and happy english student. <br/>
 > I also lose money professionally through crypto investments!! 🔥📉
