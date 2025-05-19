@@ -12,11 +12,11 @@ solving real world people's problems through technology.
 ##### What stack I'm intertwined in?
 
 <div style="display: flex;">
-   <img heigh="40px" width="50" style="margin: 8px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-plain.svg"  />
-   <img heigh="40px" width="45" style="margin: 8px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-plain.svg"/>
-   <img heigh="40px" width="50" style="margin: 8px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg"/>
-   <img heigh="40px" width="50" style="margin: 8px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/powershell/powershell-original.svg"/>
-   <img heigh="40px" width="50" style="margin: 8px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg"/>
+   <img heigh="40px" width="50" style="margin: 0 11 0 11px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-plain.svg"  />
+   <img heigh="40px" width="45" style="margin: 0 11 0 11px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-plain.svg"/>
+   <img heigh="40px" width="50" style="margin: 0 11 0 11px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg"/>
+   <img heigh="40px" width="50" style="margin: 0 11 0 11px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/powershell/powershell-original.svg"/>
+   <img heigh="40px" width="50" style="margin: 0 11 0 11px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg"/>
           
 </div>
 
@@ -28,11 +28,11 @@ operations and more computation specialized stuff.
 
 ###### Environments environemnts, sdks, frameworks yadayadayada (stuff you use to do stuff)
 <div style="display: flex;">
-   <img heigh="40px" width="50" style="margin: 8px" src="https://www.svgrepo.com/show/376369/dotnet.svg"/>
-   <img heigh="40px" width="60" style="margin: 8px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"  />
-   <img heigh="40px" width="70" style="margin: 8px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-plain.svg"  />
-   <img heigh="40px" width="50" style="margin: 8px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/windows8/windows8-original.svg"  />
-   <img heigh="40px" width="50" style="margin: 8px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wasm/wasm-original.svg"  />
+   <img heigh="40px" width="50" style="margin: 0 11 0 11px" src="https://www.svgrepo.com/show/376369/dotnet.svg"/>
+   <img heigh="40px" width="60" style="margin: 0 11 0 11px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"  />
+   <img heigh="40px" width="70" style="margin: 0 11 0 11px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-plain.svg"  />
+   <img heigh="40px" width="50" style="margin: 0 11 0 11px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/windows8/windows8-original.svg"  />
+   <img heigh="40px" width="50" style="margin: 0 11 0 11px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wasm/wasm-original.svg"  />
    <div style="display:flex; flex-direction: column; align-items:center; margin:11px; margin-top: 20px">
    <img heigh="40px" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"  />
    <span>Node.Js</span>
