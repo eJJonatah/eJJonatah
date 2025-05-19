@@ -23,23 +23,20 @@ solving real world people's problems through technology.
 ---
 > [!NOTE]
 > Even tho bash is cited above, I mostly do windows shit because of daily usage and It's what im mostly 
-confortable with (visual studio IDE and the whole microsof💖 paraphernalia included). Though I am currently experimenting with advanced linux server 
+confortable with (visual studio IDE and the whole microsof💖 paraphernalia included) though I am currently experimenting with advanced linux server 
 operations and more computation specialized stuff.
 
 ###### Environments environemnts, sdks, frameworks yadayadayada (stuff you use to do stuff)
-<div style="display: flex;">
+<div style="display: flex; flex-direction:row">
    <img heigh="40px" width="50" style="margin:11px" src="https://www.svgrepo.com/show/376369/dotnet.svg"/>
    <img heigh="40px" width="60" style="margin:11px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"  />
    <img heigh="40px" width="70" style="margin:11px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-plain.svg"  />
    <img heigh="40px" width="50" style="margin:11px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wasm/wasm-original.svg"  />
-   <div style="display:flex; flex-direction: column; align-items:center; margin:11px; margin-top: 20px">
-   <img heigh="40px" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"  />
-   <span>Node.Js</span>
-   </div>
+   <img heigh="40px" width="70" style="margin:11px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" />
 </div>
 
-I do Love dotnet and most of the things that I do are supported by the rich .NET ecosystem. I 
-am aproaching a more low level way of building software and slowly moving to things like C or Rust but 
+I do Love dotnet, moreover most of the things that I do are supported by the rich .NET ecosystem. I'm
+studying a more low level way of building software and slowly moving to things like C or Rust but 
 not a reality in the foreseeable future.
 
 > [!IMPORTANT]
