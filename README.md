@@ -10,14 +10,19 @@ and sticking to them when suitabe and desirable. I also like engaging with peopl
 more importantly: solving real world problems through technology.
 
 ### Hard skillset
-
-<div style="display: flex;">
-   <img heigh="40px" width="50" style="margin:11px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-plain.svg"  />
+<h6 style="margin: 0 0 0 30rem">Environments environemnts, sdks, frameworks yadayadayada (stuff you use to do stuff)</h6>
+<div style="display: flex; align-items:center; justify-content:center;">
+   <img heigh="40px" width="45" style="margin:11px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-plain.svg"  />
    <img heigh="40px" width="45" style="margin:11px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-plain.svg"/>
-   <img heigh="40px" width="50" style="margin:11px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg"/>
-   <img heigh="40px" width="50" style="margin:11px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/powershell/powershell-original.svg"/>
-   <img heigh="40px" width="50" style="margin:11px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg"/>
-          
+   <img heigh="40px" width="45" style="margin:11px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg"/>
+   <img heigh="40px" width="45" style="margin:11px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/powershell/powershell-original.svg"/>
+   <img heigh="40px" width="45" style="margin:11px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg"/>
+   <div style="margin: 0 20 10 20px; font-weight:1; font-size:3rem">|</div>
+   <img heigh="40px" width="45" style="margin:11px" src="https://www.svgrepo.com/show/376369/dotnet.svg"/>
+   <img heigh="40px" width="60" style="margin:11px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"  />
+   <img heigh="40px" width="70" style="margin:11px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-plain.svg"  />
+   <img heigh="40px" width="45" style="margin:11px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wasm/wasm-original.svg"  />
+   <img heigh="40px" width="70" style="margin:11px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" />
 </div>
 
 ---
@@ -26,16 +31,10 @@ more importantly: solving real world problems through technology.
 confortable with (visual studio IDE and the whole microsof💖 paraphernalia included) though I am currently experimenting with more advanced linux
 server operations and computation specialized stuff.
 
-###### Environments environemnts, sdks, frameworks yadayadayada (stuff you use to do stuff)
 <div style="display: flex; flex-direction:row">
-   <img heigh="40px" width="50" style="margin:11px" src="https://www.svgrepo.com/show/376369/dotnet.svg"/>
-   <img heigh="40px" width="60" style="margin:11px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"  />
-   <img heigh="40px" width="70" style="margin:11px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-plain.svg"  />
-   <img heigh="40px" width="50" style="margin:11px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wasm/wasm-original.svg"  />
-   <img heigh="40px" width="70" style="margin:11px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" />
 </div>
 
-I do Love dotnet, moreover most of the things that I do are supported by the rich .NET ecosystem. I'm
+Yes, I do love dotnet, moreover most of the things that I do are supported by the rich .NET ecosystem. I'm
 studying a more low level way of building software and slowly moving to things like C or Rust but 
 not a reality in the foreseeable future.
 
