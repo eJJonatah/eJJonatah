@@ -10,14 +10,13 @@ and sticking to them when suitabe and desirable. I also like engaging with peopl
 more importantly: solving real world problems through technology.
 
 ### Hard skillset
-<h6 style="margin: 0 0 0 30rem">Environments environemnts, sdks, frameworks yadayadayada (stuff you use to do stuff)</h6>
 <div style="display: flex; align-items:center; justify-content:center;">
    <img heigh="40px" width="45" style="margin:11px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-plain.svg"  />
    <img heigh="40px" width="45" style="margin:11px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-plain.svg"/>
    <img heigh="40px" width="45" style="margin:11px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg"/>
    <img heigh="40px" width="45" style="margin:11px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/powershell/powershell-original.svg"/>
    <img heigh="40px" width="45" style="margin:11px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg"/>
-   <div style="margin: 0 20 10 20px; font-weight:1; font-size:3rem">|</div>
+   <h6 style="margin: 0 0 0 30rem">Environments environemnts, sdks, frameworks yadayadayada (stuff you use to do stuff)</h6>
    <img heigh="40px" width="45" style="margin:11px" src="https://www.svgrepo.com/show/376369/dotnet.svg"/>
    <img heigh="40px" width="60" style="margin:11px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"  />
    <img heigh="40px" width="70" style="margin:11px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-plain.svg"  />
